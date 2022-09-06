@@ -20,6 +20,7 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
    conda activate py2
    ```  
 - Please cd inside the downloaded casTLE directory.  
+- Inside casTLE, please unzip the directory 'GenRef.zip'
 - Creation of an index file: <br />
   Step 1: Please save the index file (in csv format) in the directory 'Align'. <br />
   Step 2: Please run the following command in the command line: <br />
