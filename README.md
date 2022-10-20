@@ -5,7 +5,12 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
 
 
 ## Installation: 
-- Please make sure anaconda is installed on your machine. 
+- Please make sure anaconda is installed on your machine. If not, please follow the instructions: 
+   ```
+   https://docs.conda.io/en/latest/miniconda.html # Link for system-dependent installation of binary 
+   cd Downloads # Location where binary (example name Miniconda3-latest-MacOSX-x86_64.sh) is downloaded
+   bash Miniconda3-latest-MacOSX-x86_64.sh # Installation of conda
+   ```
 - Please run the following in order, in the command line: 
    ```
    conda create -name py2 python=2.7
