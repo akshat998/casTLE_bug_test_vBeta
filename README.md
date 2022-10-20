@@ -2,6 +2,8 @@
 
 Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes." Nature biotechnology 34.6 (2016): 634-636.
 
+
+
 ## Installation: 
 - Please make sure anaconda is installed on your machine. 
 - Please run the following in order, in the command line: 
@@ -13,6 +15,13 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
    conda install -c anaconda scipy=0.19.1
    ```  
 - If all the installations went smoothly, you are ready to run the commands from 'Quick Start'. 
+
+## File Descriptions:
+- Scripts/makeIndices.py: Creation of a mapping for all the guides, used by future steps for association to a gene. Not requred if genome-wide alignment is prefered. 
+- Scripts/makeCounts.py: Align FASTQ and make count file
+- Scripts/analyzeCounts.py: Compares count files using casTLE
+- Scripts/analyzeCombo.py: Combines data for two screens
+
 
 ## Quick Start Example: 
 - Please activate your conda environment with: 
