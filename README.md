@@ -76,14 +76,14 @@ bcl2fastq \
   python Scripts/makeCounts.py ./Sequencing_Data/220318_RVJS_NucKO_KS_colab/t0_S13_L00  Results/t0 attardi1_align_short 
   python Scripts/makeCounts.py ./Sequencing_Data/220318_RVJS_NucKO_KS_colab/lib_S16_L00  Results/lib attardi1_align_short 
   ``` 
-  Note: Ever time makeCounts.py is successfully run, information about alignment quality is reported. For example: 
+  Note: Every time makeCounts.py is successfully run, information about alignment quality is reported. For example: 
   ```
   Mapping reads
   # reads processed: 7820356
   # reads with at least one reported alignment: 6628625 (84.76%)
   # reads that failed to align: 1191731 (15.24%)
   ```
-  Having an alignment percentage above 80\% is a quick sanity check. Here, 84.76\% re reported (which is good!). 
+  Having an alignment percentage above 80\% is a quick sanity check. Here, 84.76\% is reported (which is good!). 
 
 - Run analyzeCounts.py: (Output will be saved within the directory 'Results') <br />
   ``` 
