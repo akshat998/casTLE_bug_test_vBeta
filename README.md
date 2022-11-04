@@ -35,7 +35,7 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
 - Scripts/plotDist.py: Visualizes count distribution
 
 ## Demultiplexing: 
-In order to convert raw data into fastq files, we make use of bcl2fastq, Illumina conversion tool that can be downloaded from [here](https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html). In order to proceed with using casTLE, the data is required to be in the fatq format. The following script can be used for the conversion: 
+In order to convert raw data into fastq files, we make use of bcl2fastq, Illumina conversion tool that can be downloaded from [here](https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html). In order to proceed with using casTLE, the data is required to be in the fastq format. The following script can be used for the conversion: 
 ```
 runName=$1  # path to data directory, e.g., /mnt/lab_data/Sequencing_Data/150312_NS500418_0107_AH5M5HBGXX
 runLabel=$2 # path to the location where the output will be saved e.g. /mnt/lab_data/Sequencing_Data/fastq_files/OUT_DIR
