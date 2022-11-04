@@ -27,6 +27,9 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
 - Scripts/makeCounts.py: Align FASTQ and make count file
 - Scripts/analyzeCounts.py: Compares count files using casTLE
 - Scripts/analyzeCombo.py: Combines data for two screens
+- Scripts/plotGenes_RL.py: Plot guide distrubutions for Genes
+- Scripts/addCombo.py: Adds permutations to calculate pvalues
+- Scripts/plotDist.py: Visualizes count distribution
 
 
 ## Quick Start Example: 
@@ -76,7 +79,10 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
   ```
   python Scripts/addCombo.py Results/combo_left_right.csv 1000000
   ```     
-
+- Run plotDist.py: 
+  ```
+  python Scripts/plotDist.py output_name Data/DM/DY/XM_Interneuron_210508/plasmid_counts.csv Data/DM/DY/XM_Interneuron_210508/ipsc_counts.csv Data/DM/DY/XM_Interneuron_210508/diff_d2_counts.csv Data/DM/DY/XM_Interneuron_210508/diff_d19_counts.csv -l Plasmid iPSC Diff_D2 Diff_D1
+  ```    
 
 ## Questions, problems?
 Make a github issue 😄. Please be as clear and descriptive as possible. Please feel free to reach
