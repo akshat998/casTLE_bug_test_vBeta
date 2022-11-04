@@ -71,7 +71,7 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
   ```
   python Scripts/analyzeCombo.py ./Results/t0_v_right.csv  ./Results/t0_v_left.csv combo_left_right
   ```     
-- Plot the guides for a particular gene (For example, we will look at the gene SPTAN1): (Output will be saved within the directory 'Results') <br />
+- Plot the guides for a particular gene (For example, we will look at the gene SPTAN1): (Output will be saved within the curent working directory) <br />
   ```
   python Scripts/plotGenes_RL.py ./Results/t0_v_left.csv SPTAN1
   ```     
