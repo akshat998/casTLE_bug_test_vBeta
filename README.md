@@ -18,6 +18,7 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
    conda install -c bioconda bowtie=1.2.2
    conda install -c bioconda htseq
    conda install -c anaconda scipy=0.19.1
+   pip install pp
    ```  
 - If all the installations went smoothly, you are ready to run the commands from 'Quick Start'. 
 
