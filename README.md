@@ -75,13 +75,13 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
   ```
   python Scripts/plotGenes_RL.py ./Results/t0_v_left.csv SPTAN1
   ```     
-- Run addCombo.py: 
+- Run addCombo.py: (Column 'casTLE p-value' will be updated in the combo file of the 'Results' directory)
   ```
   python Scripts/addCombo.py Results/combo_left_right.csv 1000000
   ```     
-- Run plotDist.py: 
+- Run plotDist.py: (Output will be saved within the directory 'Results') 
   ```
-  python Scripts/plotDist.py output_name Data/DM/DY/XM_Interneuron_210508/plasmid_counts.csv Data/DM/DY/XM_Interneuron_210508/ipsc_counts.csv Data/DM/DY/XM_Interneuron_210508/diff_d2_counts.csv Data/DM/DY/XM_Interneuron_210508/diff_d19_counts.csv -l Plasmid iPSC Diff_D2 Diff_D1
+  python Scripts/plotDist.py test_output ./Data/Results/t0_counts.csv ./Data/Results/right_flank_counts.csv
   ```    
 
 ## Questions, problems?

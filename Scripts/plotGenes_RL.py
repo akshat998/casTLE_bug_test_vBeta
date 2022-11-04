@@ -78,7 +78,7 @@ args = parser.parse_args()
 ###############################################################################
 # Finds records file
 
-print('Retrieving records')
+
 
 stats, files, info, param = retrieveRecord(args.res_file, current_version)
 

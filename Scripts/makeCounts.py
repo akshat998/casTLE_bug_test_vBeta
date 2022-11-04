@@ -98,21 +98,6 @@ except:
     sys.exit('Cannot write to output file: \n' + file_out + '\n'
                 + 'Use -of or --override_file to change')
 
-# Determines if bowtie location is valid
-if not os.path.exists(args.bowtie):
-    found = False
-
-    # Looks for shortcuts i.e. bowtie
-    for path in os.environ["PATH"].split(os.pathsep):
-	path = path.strip('"')
-	exe = os.path.join(path, args.bowtie)
-	if os.path.exists(exe):
-	    found = True
-	    break
-
-    if not found:
-        sys.exit('Bowtie aligner not found at: \n' + args.bowtie + '\n'
-                    + 'Use -b or --bowtie to change')
 
 # Locates index files
 index = name2index[args.screen_type]
@@ -134,8 +119,8 @@ if args.add_file:
         sys.exit('Shell error')
 else:
     try:
-	subprocess.check_call('cat ' + args.file_in + '*'+' > '
-                                + file_out + '_all.fastq.gz', shell=True)
+    	subprocess.check_call('cat ' + args.file_in + '*'+' > '
+                                    + file_out + '_all.fastq.gz', shell=True)
     except:
         sys.exit('Shell error')
 
