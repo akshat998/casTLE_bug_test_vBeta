@@ -55,7 +55,7 @@ Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and R
   # reads with at least one reported alignment: 6628625 (84.76%)
   # reads that failed to align: 1191731 (15.24%)
   ```
-  Having an alignment percentage above 80\% is a quick sanity check. Here, 84.76\% re reported. 
+  Having an alignment percentage above 80\% is a quick sanity check. Here, 84.76\% re reported (which is good!). 
 
 - Run analyzeCounts.py: (Output will be saved within the directory 'Results') <br />
   ``` 
