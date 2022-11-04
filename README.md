@@ -1,4 +1,4 @@
-# casTLE: Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes
+# casTLE: Cas9 high-Throughput maximum Likelihood Estimator
 
 <img align="center" src="./aux/workflow.png"/>
 
