@@ -40,8 +40,8 @@ In order to convert raw data into fastq files, we make use of bcl2fastq, Illumin
 runName=$1  # path to data directory, e.g., /mnt/lab_data/Sequencing_Data/150312_NS500418_0107_AH5M5HBGXX
 runLabel=$2 # path to the location where the output will be saved e.g. /mnt/lab_data/Sequencing_Data/fastq_files/OUT_DIR
 
-seqDir=/mnt/lab_data/bassik/Sequencing_Data/2019/$runName
-outDir=/mnt/lab_data/bassik/Sequencing_Data/fastq_files/2019/$runLabel
+seqDir=/mnt/lab_data/Sequencing_Data/2019/$runName
+outDir=/mnt/lab_data/Sequencing_Data/fastq_files/2019/$runLabel
 
 bcl2fastq \
     --runfolder-dir $seqDir \
