@@ -1,5 +1,8 @@
 # casTLE: Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes
 
+<img align="center" src="./aux/workflow.png"/>
+
+
 Reference: Morgens, David W., et al. "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes." Nature biotechnology 34.6 (2016): 634-636.
 
 
