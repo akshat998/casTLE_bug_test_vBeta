@@ -69,7 +69,7 @@ bcl2fastq \
   ```
   python ./Scripts/makeIndices.py -o ./Align/attardi1_align.csv attardi1_align_short attardi1_align_long -t
   ```  
-- Run makeCounts.py: <br />
+- Run makeCounts.py: (Output will be saved within the directory './Data/Results') <br />
   ```
   python Scripts/makeCounts.py ./Sequencing_Data/220318_RVJS_NucKO_KS_colab/left_flank_S14_L00  Results/left_flank attardi1_align_short   
   python Scripts/makeCounts.py ./Sequencing_Data/220318_RVJS_NucKO_KS_colab/right_flank_S15_L00  Results/right_flank attardi1_align_short 
