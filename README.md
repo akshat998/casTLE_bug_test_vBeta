@@ -101,7 +101,7 @@ bcl2fastq \
   ```     
 - Plot the points (genes) comparing their effect (combo casTLE effect), to their significance (combo casTLE Score).: (Output will be saved within the curent working directory in files volcano.png and ) <br />
   ```
-  python plotVolcano.py ./Results/combo_left_right.csv
+  python ./Scripts/plotVolcano.py ./Results/combo_left_right.csv
   ```     
 
 - Run addCombo.py: (Column 'casTLE p-value' will be updated in the combo file of the 'Results' directory)
