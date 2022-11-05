@@ -95,10 +95,15 @@ bcl2fastq \
   ```
   python Scripts/analyzeCombo.py ./Results/t0_v_right.csv  ./Results/t0_v_left.csv combo_left_right
   ```     
-- Plot the guides for a particular gene (For example, we will look at the gene SPTAN1): (Output will be saved within the curent working directory) <br />
+- Plot the guides for a particular gene (We will look at the gene SPTAN1): (Output will be saved within the curent working directory) <br />
   ```
   python Scripts/plotGenes_RL.py ./Results/t0_v_left.csv SPTAN1
   ```     
+- Plot the points (genes) comparing their effect (combo casTLE effect), to their significance (combo casTLE Score).: (Output will be saved within the curent working directory in files volcano.png and ) <br />
+  ```
+  python plotVolcano.py ./Results/combo_left_right.csv
+  ```     
+
 - Run addCombo.py: (Column 'casTLE p-value' will be updated in the combo file of the 'Results' directory)
   ```
   python Scripts/addCombo.py Results/combo_left_right.csv 1000000
